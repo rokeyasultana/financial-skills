@@ -59,3 +59,18 @@ padding: 5px 5px 5px 5px;
       margin-bottom: 20px;
     }
   }
+  .welcome{
+    border-bottom: 5px solid rgb(24, 190, 71);
+    border-radius: 2px;
+  }
+  .discover{
+    background-color: rgb(24, 190, 71);
+    border-radius: 2px;
+color: white;
+border: none;
+font-size: 20px;
+margin-top: 20px;
+font-weight: 500;
+padding: 10px 10px 10px 10px;
+width: 120px;
+  }
