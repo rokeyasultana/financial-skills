@@ -129,8 +129,48 @@ width: 120px;
     }
   }
   /* section 7 */
-  .background1{
-    background-image: image('./images/background.png');
-    background-repeat: no-repeat;
-    background-image: image();
+.section-p{
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(8, 8, 95);
+}
+  .background-image {
+    background-image: url('./images/background.png');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .content {
+    padding: 20px;
+  
+    max-width: 400px;
+  }
+  
+
+  
+  li {
+    margin-right: 190px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    line-height: 50px;
+    color: rgb(8, 8, 95);
+  }
+  
+  button {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 20px;
   }
