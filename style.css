@@ -1,3 +1,5 @@
+/* section 1 */
+
 .banner {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -60,7 +62,7 @@ padding: 5px 5px 5px 5px;
     }
   }
 
-
+/* section 3 */
   .welcome{
     border-bottom: 5px solid rgb(24, 190, 71);
     border-radius: 2px;
@@ -76,6 +78,11 @@ font-weight: 500;
 padding: 10px 10px 10px 10px;
 width: 120px;
   }
+/* section 4 */
 
-
-  
+.center {
+    background-color: purple;
+    color: white;
+    border: 5px solid;
+    text-align: center;
+  }
